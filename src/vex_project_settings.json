@@ -1,0 +1,18 @@
+{
+	"extension": {
+		"version": "0.8.2026020401",
+		"json": 2
+	},
+	"project": {
+		"name": "codi_vex",
+		"description": "",
+		"creationDate": "6/15/2026, 10:44:51 AM",
+		"platform": "IQ2",
+		"language": "python",
+		"slot": 1,
+		"sdkVersion": "IQ2_1_0_0_21",
+		"python": {
+			"main": "src/main.py"
+		}
+	}
+}
