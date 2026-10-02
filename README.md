@@ -21,7 +21,8 @@ Documentació (/docs): CC BY 4.0
 Si teniu pensat replicar el projecte, utilitzar aquest material en la vostra recerca o desenvolupar una versió derivada, us agrairem molt que ens ho feu saber enviant un correu a quibot@upc.edu o obrint una Issue en aquest repositori. Això ens ajuda a fer el seguiment de l'impacte del projecte.
 
 👥 Autors, Equip i Agraïments
-Investigadors Principals: Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
+Investigadors Principals: 
+Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
 
 **Desenvolupament Tècnic:** Xènia Mata Fernández — *Col·laborador/a de recerca*.
 
