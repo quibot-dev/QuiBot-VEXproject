@@ -22,5 +22,7 @@ Si teniu pensat replicar el projecte, utilitzar aquest material en la vostra rec
 
 👥 Autors, Equip i Agraïments
 Investigadors Principals: Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
+
 **Desenvolupament Tècnic:** Xènia Mata Fernández — *Col·laborador/a de recerca*.
+
 Finançament: Projecte finançat pel Departament d'Igualtat i Feminismes de la Generalitat de Catalunya (IFE038/24/000087).
