@@ -14,8 +14,9 @@ Aquest projecte és Open Hardware i utilitza les llicències següents:
 Hardware (/hardware): CERN-OHL-S-2.0
 Firmware (/firmware): MIT License
 Documentació (/docs): CC BY 4.0
+
 📢 Aviseu-nos si feu servir o adapteu aquest material!
-Si teniu pensat replicar el projecte, utilitzar aquest material en la vostra recerca o desenvolupar una versió derivada, us agrairem molt que ens ho feu saber enviant un correu a quibot@upc.edu o obrint una Issue en aquest repositori. Això ens ajuda a fer el seguiment de l'impacte del projecte i a justificar el finançament rebut.
+Si teniu pensat replicar el projecte, utilitzar aquest material en la vostra recerca o desenvolupar una versió derivada, us agrairem molt que ens ho feu saber enviant un correu a quibot@upc.edu o obrint una Issue en aquest repositori. Això ens ajuda a fer el seguiment de l'impacte del projecte.
 
 👥 Autors, Equip i Agraïments
 Investigadors Principals: Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
