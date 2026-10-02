@@ -7,6 +7,7 @@ Documentació oficial i codi del Projecte QuiBot (UPC).
 /firmware: Codi font per al microcontrolador i instruccions de compilació.
 /bom: Llista detallada de components (Bill of Materials), proveïdors i costos estimats.
 /docs: Guies de muntatge, manuals d'ús, esquemes de connexió i resultats de recerca.
+
 📜 Llicència i Condicions d'Ús
 Aquest projecte és Open Hardware i utilitza les llicències següents:
 
