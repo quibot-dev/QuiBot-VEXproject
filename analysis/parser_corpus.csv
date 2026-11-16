@@ -1,0 +1,54 @@
+group,text,expected
+command,Esquerra,LEFT
+command,Cap a l'esquerra,LEFT
+command,Mou la safata a l'esquerra,LEFT
+command,"A l'esquerra, si us plau",LEFT
+command,Dreta,RIGHT
+command,Cap a la dreta,RIGHT
+command,Mou la safata a la dreta,RIGHT
+command,"A la dreta, si us plau",RIGHT
+command,Puja,UP
+command,Puja el braç,UP
+command,Amunt,UP
+command,Aixeca el braç,UP
+command,Baixa,DWN
+command,Baixa el braç,DWN
+command,Avall,DWN
+command,Baixa una mica,DWN
+command,Xucla,XUCLA
+command,Xucla el líquid,XUCLA
+command,Xucla l'aigua de color,XUCLA
+command,Xucla una mica,XUCLA
+command,Buida,XTREU
+command,Buida la xeringa,XTREU
+command,Deixa anar el líquid,XTREU
+command,Buida-ho al vas,XTREU
+command,Atura't,STOP
+command,Para,STOP
+command,Stop,STOP
+command,Prou,STOP
+social,Hola,HELLO
+social,Bon dia,HELLO
+social,Hola a tothom,HELLO
+social,Ets tonto,RESPECT
+social,Robot estúpid,RESPECT
+non_command,Ara parlarem de química,NONE
+non_command,Preparem la dissolució,NONE
+non_command,Separa els dos líquids,NONE
+non_command,Mira aquest aparell,NONE
+non_command,Ara et toca a tu,NONE
+non_command,Parla més fort,NONE
+non_command,Agafa el teu llapis,NONE
+non_command,Està molt dret,NONE
+non_command,Aquest és el teu dret,NONE
+non_command,El nivell de l'aigua baixa,NONE
+non_command,Treu-te la jaqueta,NONE
+non_command,Què passa si barregem colors?,NONE
+non_command,El vas és ple,NONE
+non_command,Tinc una pregunta,NONE
+non_command,Comencem l'experiment,NONE
+non_command,Ho has fet molt bé,NONE
+non_command,Jo també ho vull provar,NONE
+non_command,Quin color tindrà?,NONE
+non_command,"Tres, dos, u",NONE
+non_command,Tinc set,NONE

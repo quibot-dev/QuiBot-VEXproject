@@ -13,7 +13,7 @@ import pygame
 # ==========================================
 #         CONFIGURACIÓ AUTOMÀTICA
 # ==========================================
-MODEL_SIZE = "base" # Model amb base de dades AIna per a català
+MODEL_SIZE = "base"  # Model multilingüe de Whisper; el català es fixa a transcribe(language="ca")
 debug = False
 # ==========================================
 
@@ -23,7 +23,7 @@ pygame.mixer.init()
 def reprodueix_resposta(fitxer_wav):
     """Reprodueix el so en segon pla sense congelar el robot"""
     try:
-        ruta = os.path.join("audio", fitxer_wav)
+        ruta = os.path.join(os.path.dirname(os.path.abspath(__file__)), "audio_interface", fitxer_wav)
         if os.path.exists(ruta):
             pygame.mixer.music.load(ruta)
             pygame.mixer.music.play()
@@ -70,7 +70,7 @@ mic = sr.Microphone()
 with mic as source:
     print("\nCalibrant soroll ambiental de la sala...")
     r.adjust_for_ambient_noise(source, duration=1)
-    print("\n--- SISTEMA AIna DE VEU ACTIU ---")
+    print("\n--- SISTEMA DE VEU ACTIU (Whisper, català, sense connexió) ---")
     print("Digues clarament: 'Esquerra', 'Dreta','Atura'...")
 
     while True:
