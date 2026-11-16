@@ -1,35 +1,69 @@
-Documentació oficial i codi del Projecte QuiBot (UPC).
+# QuiBot-VEX: robot de química controlat per veu en català
 
-🌐 Lloc web del projecte: [https://quibot.upc.edu/]
+Robot de manipulació de líquids per a activitats de química amb infants, construït amb **VEX IQ (2a generació)** i controlat amb **ordres de veu en català**, reconegudes **sense connexió a internet** en un ordinador. Forma part del Projecte QuiBot (UPC).
 
-📁 Estructura del Repositori
-/hardware: Esquemàtics, dissenys de PCB (KiCad), fitxers Gerber i models CAD 3D (.STEP, .STL).
-/firmware: Codi font per al microcontrolador i instruccions de compilació.
-/bom: Llista detallada de components (Bill of Materials), proveïdors i costos estimats.
-/docs: Guies de muntatge, manuals d'ús, esquemes de connexió i resultats de recerca.
+🌐 Lloc web del projecte: https://quibot.upc.edu/
 
-📜 Llicència i Condicions d'Ús
-Aquest projecte és Open Hardware i utilitza les llicències següents:
+*English: a liquid-handling chemistry robot built with VEX IQ (2nd generation) and controlled with Catalan voice commands, recognized offline on a computer with a quantized Whisper model.*
 
-Hardware (/hardware): CERN-OHL-S-2.0
+## 📁 Estructura del repositori
 
-Firmware (/firmware): MIT License
+| Carpeta | Contingut |
+|---|---|
+| `src/main.py` | Programa del VEX IQ Brain (Python): bucle de control de 20 ms, límits de la xeringa i de la safata, prioritat del comandament i botó d'aturada |
+| `src/control_veu.py` | Programa de l'ordinador: captura d'àudio, reconeixement de veu (Whisper `base`, int8, català), conversió en ordres i enviament per USB |
+| `src/audio_interface/` | Respostes d'àudio del robot |
+| `docs/` | Instruccions de muntatge pas a pas (en català) |
+| `analysis/` | Scripts de l'article: prova del reconeixement d'ordres, simulació del programa del VEX i proves de veu |
 
-Documentació (/docs): CC BY 4.0
+## 🧩 Què cal
 
-📢 Aviseu-nos si feu servir o adapteu aquest material!
-Si teniu pensat replicar el projecte, utilitzar aquest material en la vostra recerca o desenvolupar una versió derivada, us agrairem molt que ens ho feu saber enviant un correu a quibot@upc.edu o obrint una Issue en aquest repositori. Això ens ajuda a fer el seguiment de l'impacte del projecte.
+- Un kit **VEX IQ (2a generació)** amb el Brain, el comandament i tres Smart Motors (safata al port 4, braç al port 1, xeringa al port 3). Les peces i el muntatge són a `docs/`.
+- Un **ordinador** amb micròfon i Python 3.9 o superior.
 
-👥 Autors, Equip i Agraïments
-Investigadors Principals: 
-Marta Tarrés i Toni Dorado — Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
+## ▶️ Com fer-lo funcionar
 
-**Desenvolupament Tècnic:** Xènia Mata Fernández — *Col·laborador/a de recerca*.
+1. Carregueu `src/main.py` al VEX IQ Brain amb VEXcode IQ.
+2. Connecteu el Brain a l'ordinador per USB.
+3. A l'ordinador, instal·leu les dependències i engegueu el control per veu:
+   ```bash
+   pip install -r requirements.txt
+   python src/control_veu.py
+   ```
+   El programa detecta el port del robot automàticament. La primera vegada descarrega el model de Whisper.
 
-Finançament: Projecte finançat pel Departament d'Igualtat i Feminismes de la Generalitat de Catalunya (IFE038/24/000087).
+## 🗣️ Ordres de veu
 
-## ⚠️ Avís Legal, Seguretat i Suport
+| Ordre | Exemples | Què fa |
+|---|---|---|
+| Esquerra / Dreta | «esquerra», «dreta» | Mou la safata un pas (150°), fins a tres passos a cada costat |
+| Puja / Baixa | «puja», «baixa» | Puja o baixa el braç fins a una altra ordre |
+| Xucla | «xucla» | Omple la xeringa fins al límit |
+| Buida | «buida» | Buida la xeringa |
+| Atura't | «atura't», «para», «stop» | Ho atura tot |
 
-* **Exempció de responsabilitat:** Aquest repositori i tots els seus materials es proporcionen "tal com són" (*AS IS*), amb fins exclusivament docents i de recerca. Els autors i la Universitat Politècnica de Catalunya (UPC) no assumeixen cap responsabilitat per danys directes, indirectes o derivats de la fabricació, muntatge, manipulació o ús dels dissenys, circuits o codis d'aquest projecte.
-* **Seguretat mecatrònica:** El dispositiu conté components elèctrics i elements mecànics en moviment. Cal prendre les precaucions de seguretat adients durant la seva manipulació i alimentació elèctrica.
-* **Atenció i suport tècnic:** Aquest projecte es manté exclusivament en el marc de les activitats de recerca del grup RISS. L'equip investigador no assumeix cap compromís d'oferir assistència tècnica, suport personalitzat o resolució de peticions a tercers usuaris.
+El comandament de VEX té sempre prioritat sobre la veu, i la fletxa avall de la creueta ho atura tot.
+
+## 📌 Versions
+
+- **`v1.0-juny2026`**: el codi tal com es va fer servir al taller del 20 de juny de 2026 i tal com s'analitza a l'article.
+- Les versions posteriors inclouen les correccions descrites a l'article (reconeixement d'ordres per paraules senceres, límits del braç i control manual momentani).
+
+## 📜 Llicència
+
+- Codi (`src/`, `analysis/`): **MIT**
+- Documentació (`docs/`): **CC BY 4.0**
+
+## 👥 Autoria i finançament
+
+- **Investigadors principals:** Marta Tarrés i Toni Dorado, Grup de Recerca RISS, Universitat Politècnica de Catalunya (UPC).
+- **Desenvolupament tècnic:** Xènia Mata Fernández.
+- **Finançament:** Departament d'Igualtat i Feminismes de la Generalitat de Catalunya (IFE038/24/000087).
+
+Si feu servir o adapteu aquest material, ens agradarà saber-ho: escriviu a quibot@upc.edu o obriu una *issue*.
+
+## ⚠️ Avís legal i seguretat
+
+- **Exempció de responsabilitat:** aquest repositori es proporciona «tal com és» (*AS IS*), amb finalitats exclusivament docents i de recerca. Els autors i la UPC no assumeixen cap responsabilitat pels danys derivats del muntatge o de l'ús del robot.
+- **Seguretat:** el robot té parts mòbils. Feu-lo servir sempre amb la supervisió d'una persona adulta, i tingueu a mà el comandament per aturar-lo.
+- **Suport:** el projecte es manté en el marc de les activitats de recerca del grup RISS, sense compromís d'assistència tècnica a tercers.

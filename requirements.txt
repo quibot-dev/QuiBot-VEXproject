@@ -1,0 +1,5 @@
+faster-whisper
+SpeechRecognition
+PyAudio
+pyserial
+pygame
