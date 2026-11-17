@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "QuiBot-VEX: offline Catalan voice-controlled chemistry robot built with VEX IQ"
+type: software
+authors:
+  - family-names: "Tarrés-Puertas"
+    given-names: "Marta I."
+    affiliation: "Universitat Politècnica de Catalunya (UPC)"
+  - family-names: "Mata Fernández"
+    given-names: "Xènia"
+    affiliation: "Universitat Politècnica de Catalunya (UPC)"
+  - family-names: "Pedreira Álvarez"
+    given-names: "Montserrat"
+    affiliation: "GRECC, Universitat de Vic - Universitat Central de Catalunya (UVic-UCC)"
+  - family-names: "Lemkow-Tovias"
+    given-names: "Gabriel"
+    affiliation: "GRECC, Universitat de Vic - Universitat Central de Catalunya (UVic-UCC)"
+  - family-names: "Dorado-Castaño"
+    given-names: "Antonio D."
+    affiliation: "Universitat Politècnica de Catalunya (UPC)"
+repository-code: "https://github.com/quibot-dev/QuiBot-VEXproject"
+url: "https://quibot.upc.edu"
+license: MIT
+version: "1.1.1"
+keywords:
+  - educational robotics
+  - voice control
+  - Catalan
+  - offline speech recognition
+  - VEX IQ
+  - gender equity
+abstract: "Liquid-handling chemistry robot built with VEX IQ (second generation), controlled with spoken commands in Catalan recognized offline with Whisper, with the analysis scripts and data of the associated article."
