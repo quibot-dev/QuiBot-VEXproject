@@ -1,0 +1,425 @@
+voice,noise,group,text,expected,model,transcript,original_parser,improved_parser,transcription_s
+ona,clean,command,Esquerra,LEFT,base,# # # # # # #,NONE,NONE,1.74
+ona,clean,command,Esquerra,LEFT,small,La esquerra,LEFT,LEFT,3.93
+ona,babble10,command,Esquerra,LEFT,base,Esquerra.,LEFT,LEFT,1.25
+ona,babble10,command,Esquerra,LEFT,small,Esquerra.,LEFT,LEFT,3.83
+pau,clean,command,Esquerra,LEFT,base,Bresquerde.,NONE,NONE,1.38
+pau,clean,command,Esquerra,LEFT,small,A la esquerda.,NONE,NONE,4.68
+pau,babble10,command,Esquerra,LEFT,base,Unes cèrregues.,NONE,NONE,2.19
+pau,babble10,command,Esquerra,LEFT,small,Ura esquerra.,LEFT,LEFT,4.49
+ona,clean,command,Cap a l'esquerra,LEFT,base,cap a l'esquerra.,LEFT,LEFT,1.71
+ona,clean,command,Cap a l'esquerra,LEFT,small,Cap a l'esquerra.,LEFT,LEFT,6.40
+ona,babble10,command,Cap a l'esquerra,LEFT,base,cap a l'esquerra,LEFT,LEFT,1.77
+ona,babble10,command,Cap a l'esquerra,LEFT,small,Cap a l'esquerra.,LEFT,LEFT,6.35
+pau,clean,command,Cap a l'esquerra,LEFT,base,cap a l'esquerre,NONE,NONE,1.70
+pau,clean,command,Cap a l'esquerra,LEFT,small,Cap a l'esquerra.,LEFT,LEFT,6.56
+pau,babble10,command,Cap a l'esquerra,LEFT,base,Cap a les tèrrens,NONE,NONE,1.88
+pau,babble10,command,Cap a l'esquerra,LEFT,small,cap a l'esquerra,LEFT,LEFT,5.92
+ona,clean,command,Mou la safata a l'esquerra,LEFT,base,Molts les ha fat a l'esquerra.,LEFT,LEFT,2.45
+ona,clean,command,Mou la safata a l'esquerra,LEFT,small,Mou la safata a l'esquerra.,LEFT,LEFT,8.93
+ona,babble10,command,Mou la safata a l'esquerra,LEFT,base,Molts les a fata a l'esquerra.,LEFT,LEFT,2.57
+ona,babble10,command,Mou la safata a l'esquerra,LEFT,small,Mou la safata a l'esquerra.,LEFT,LEFT,8.29
+pau,clean,command,Mou la safata a l'esquerra,LEFT,base,Maula s'ha fet a l'esquerra,LEFT,LEFT,2.34
+pau,clean,command,Mou la safata a l'esquerra,LEFT,small,Mou la safeta a l'esqueda.,NONE,NONE,8.74
+pau,babble10,command,Mou la safata a l'esquerra,LEFT,base,Mou l'has afet a l'esqu,NONE,NONE,2.29
+pau,babble10,command,Mou la safata a l'esquerra,LEFT,small,La màula s'ha fet a l'esqu,NONE,NONE,8.23
+ona,clean,command,"A l'esquerra, si us plau",LEFT,base,"A la esquerra, si us plau.",LEFT,LEFT,2.24
+ona,clean,command,"A l'esquerra, si us plau",LEFT,small,"A l'esquerra, si us plau",LEFT,LEFT,8.02
+ona,babble10,command,"A l'esquerra, si us plau",LEFT,base,a les que re si us plau.,NONE,NONE,1.96
+ona,babble10,command,"A l'esquerra, si us plau",LEFT,small,"a l'esquerra, si us plau",LEFT,LEFT,7.72
+pau,clean,command,"A l'esquerra, si us plau",LEFT,base,A l'esquerra si us val.,LEFT,LEFT,2.46
+pau,clean,command,"A l'esquerra, si us plau",LEFT,small,"A l'esquerra, si us plau",LEFT,LEFT,8.33
+pau,babble10,command,"A l'esquerra, si us plau",LEFT,base,"A la esquerra, si us plau.",LEFT,LEFT,2.39
+pau,babble10,command,"A l'esquerra, si us plau",LEFT,small,"A la esquerra, si us plau.",LEFT,LEFT,7.78
+ona,clean,command,Dreta,RIGHT,base,de tar,NONE,NONE,1.39
+ona,clean,command,Dreta,RIGHT,small,DETAR,NONE,NONE,3.91
+ona,babble10,command,Dreta,RIGHT,base,d'entrarte.,NONE,NONE,1.82
+ona,babble10,command,Dreta,RIGHT,small,i que es un dels det,NONE,NONE,5.98
+pau,clean,command,Dreta,RIGHT,base,dretta,RIGHT,NONE,1.31
+pau,clean,command,Dreta,RIGHT,small,dreta,RIGHT,RIGHT,3.88
+pau,babble10,command,Dreta,RIGHT,base,dret.,RIGHT,NONE,1.37
+pau,babble10,command,Dreta,RIGHT,small,dreta.,RIGHT,RIGHT,4.39
+ona,clean,command,Cap a la dreta,RIGHT,base,cap a la dreta,RIGHT,RIGHT,1.77
+ona,clean,command,Cap a la dreta,RIGHT,small,Cap a la dreta.,RIGHT,RIGHT,5.81
+ona,babble10,command,Cap a la dreta,RIGHT,base,Cap a la dreta.,RIGHT,RIGHT,1.74
+ona,babble10,command,Cap a la dreta,RIGHT,small,Cap a la dreta.,RIGHT,RIGHT,5.93
+pau,clean,command,Cap a la dreta,RIGHT,base,capa la dreta,RIGHT,RIGHT,1.69
+pau,clean,command,Cap a la dreta,RIGHT,small,Cap a la dreta.,RIGHT,RIGHT,5.86
+pau,babble10,command,Cap a la dreta,RIGHT,base,cap a la dreta,RIGHT,RIGHT,1.42
+pau,babble10,command,Cap a la dreta,RIGHT,small,Cap a la dreta.,RIGHT,RIGHT,6.06
+ona,clean,command,Mou la safata a la dreta,RIGHT,base,M'haurà s'ha fet a la dreta.,RIGHT,RIGHT,2.98
+ona,clean,command,Mou la safata a la dreta,RIGHT,small,Mou la safata a la dreta.,RIGHT,RIGHT,7.60
+ona,babble10,command,Mou la safata a la dreta,RIGHT,base,M'haurà s'ha fet a la dreta.,RIGHT,RIGHT,2.72
+ona,babble10,command,Mou la safata a la dreta,RIGHT,small,Mou la safata a la dreta.,RIGHT,RIGHT,7.90
+pau,clean,command,Mou la safata a la dreta,RIGHT,base,M'haurà de ser a la diretora.,NONE,NONE,2.80
+pau,clean,command,Mou la safata a la dreta,RIGHT,small,M'ou la safata la de d'etera.,NONE,NONE,9.53
+pau,babble10,command,Mou la safata a la dreta,RIGHT,base,i et em fa molts afateres de dèter,NONE,NONE,2.64
+pau,babble10,command,Mou la safata a la dreta,RIGHT,small,aquesta maula s'ha fet a la dreta.,RIGHT,RIGHT,8.55
+ona,clean,command,"A la dreta, si us plau",RIGHT,base,"A la dreta, si us plau.",RIGHT,RIGHT,2.60
+ona,clean,command,"A la dreta, si us plau",RIGHT,small,"A la dreta, si us plau.",RIGHT,RIGHT,8.11
+ona,babble10,command,"A la dreta, si us plau",RIGHT,base,A la dreta si us plau.,RIGHT,RIGHT,2.19
+ona,babble10,command,"A la dreta, si us plau",RIGHT,small,"A la dreta, si us plau.",RIGHT,RIGHT,7.86
+pau,clean,command,"A la dreta, si us plau",RIGHT,base,A la dreta si us plau.,RIGHT,RIGHT,2.47
+pau,clean,command,"A la dreta, si us plau",RIGHT,small,"A la dreta, si us plau.",RIGHT,RIGHT,7.71
+pau,babble10,command,"A la dreta, si us plau",RIGHT,base,La dreta si us plau.,RIGHT,RIGHT,2.01
+pau,babble10,command,"A la dreta, si us plau",RIGHT,small,"A la dreta, si us plau.",RIGHT,RIGHT,7.35
+ona,clean,command,Puja,UP,base,buja,NONE,NONE,0.97
+ona,clean,command,Puja,UP,small,Búxa,NONE,NONE,3.60
+ona,babble10,command,Puja,UP,base,Bona.,NONE,NONE,1.09
+ona,babble10,command,Puja,UP,small,i puja.,UP,UP,4.20
+pau,clean,command,Puja,UP,base,Pujé.,UP,NONE,1.29
+pau,clean,command,Puja,UP,small,Buxiè.,NONE,NONE,4.55
+pau,babble10,command,Puja,UP,base,d'a,NONE,NONE,1.27
+pau,babble10,command,Puja,UP,small,Pujer.,UP,NONE,4.00
+ona,clean,command,Puja el braç,UP,base,"Pujal, braç.",UP,NONE,1.74
+ona,clean,command,Puja el braç,UP,small,puja el braç,UP,UP,4.57
+ona,babble10,command,Puja el braç,UP,base,Pujar el bràzcle.,UP,UP,1.86
+ona,babble10,command,Puja el braç,UP,small,pujant el braç.,UP,NONE,5.60
+pau,clean,command,Puja el braç,UP,base,Pujé del braç.,UP,NONE,1.70
+pau,clean,command,Puja el braç,UP,small,Puja del braç.,UP,UP,5.61
+pau,babble10,command,Puja el braç,UP,base,Us ja del braç.,NONE,NONE,1.65
+pau,babble10,command,Puja el braç,UP,small,cuja de braços.,NONE,NONE,5.28
+ona,clean,command,Amunt,UP,base,Amon?,NONE,NONE,1.14
+ona,clean,command,Amunt,UP,small,Amunt.,NONE,UP,3.47
+ona,babble10,command,Amunt,UP,base,Amon.,NONE,NONE,1.08
+ona,babble10,command,Amunt,UP,small,Amunt.,NONE,UP,3.37
+pau,clean,command,Amunt,UP,base,de la de bon,NONE,NONE,1.20
+pau,clean,command,Amunt,UP,small,Alarabun,NONE,NONE,3.90
+pau,babble10,command,Amunt,UP,base,Ara va bé.,NONE,NONE,1.15
+pau,babble10,command,Amunt,UP,small,A la ràpid.,NONE,NONE,5.48
+ona,clean,command,Aixeca el braç,UP,base,Aixeca el bras.,NONE,UP,1.50
+ona,clean,command,Aixeca el braç,UP,small,Aixeca el braç.,NONE,UP,5.87
+ona,babble10,command,Aixeca el braç,UP,base,Es seca el braç.,NONE,NONE,1.80
+ona,babble10,command,Aixeca el braç,UP,small,Aixeca el braç.,NONE,UP,6.06
+pau,clean,command,Aixeca el braç,UP,base,El xec al braç.,NONE,NONE,1.70
+pau,clean,command,Aixeca el braç,UP,small,pel xec al braç,NONE,NONE,5.09
+pau,babble10,command,Aixeca el braç,UP,base,L'has de ser cobrant.,NONE,NONE,1.90
+pau,babble10,command,Aixeca el braç,UP,small,"Però, si he caigut el bra",NONE,NONE,6.75
+ona,clean,command,Baixa,DWN,base,Baixa.,DWN,DWN,1.02
+ona,clean,command,Baixa,DWN,small,Baixa.,DWN,DWN,3.42
+ona,babble10,command,Baixa,DWN,base,Basha.,NONE,NONE,1.04
+ona,babble10,command,Baixa,DWN,small,Baixa.,DWN,DWN,3.42
+pau,clean,command,Baixa,DWN,base,Baixa.,DWN,DWN,1.09
+pau,clean,command,Baixa,DWN,small,Bàixa.,NONE,NONE,4.26
+pau,babble10,command,Baixa,DWN,base,Bassa.,NONE,NONE,1.07
+pau,babble10,command,Baixa,DWN,small,Bàixa.,NONE,NONE,4.34
+ona,clean,command,Baixa el braç,DWN,base,Vaixar el bras.,NONE,NONE,1.67
+ona,clean,command,Baixa el braç,DWN,small,Baixa el braç.,DWN,DWN,5.50
+ona,babble10,command,Baixa el braç,DWN,base,baixar el braç.,DWN,DWN,1.47
+ona,babble10,command,Baixa el braç,DWN,small,Baixa el braç.,DWN,DWN,4.84
+pau,clean,command,Baixa el braç,DWN,base,Vaja al braç.,NONE,NONE,1.50
+pau,clean,command,Baixa el braç,DWN,small,"Paja, abraça.",NONE,NONE,5.05
+pau,babble10,command,Baixa el braç,DWN,base,Bàixer d'obraç.,NONE,NONE,1.89
+pau,babble10,command,Baixa el braç,DWN,small,"Va, si està obraz.",NONE,NONE,5.45
+ona,clean,command,Avall,DWN,base,aval,NONE,NONE,0.96
+ona,clean,command,Avall,DWN,small,(Amb la música),NONE,NONE,4.89
+ona,babble10,command,Avall,DWN,base,Aban.,NONE,NONE,1.08
+ona,babble10,command,Avall,DWN,small,Bavà-li.,NONE,NONE,4.73
+pau,clean,command,Avall,DWN,base,"va, li",NONE,NONE,1.11
+pau,clean,command,Avall,DWN,small,Avani,NONE,NONE,2.97
+pau,babble10,command,Avall,DWN,base,que rena el rà,NONE,NONE,1.69
+pau,babble10,command,Avall,DWN,small,Ara avali.,NONE,NONE,3.94
+ona,clean,command,Baixa una mica,DWN,base,Bashaunamika,NONE,NONE,1.41
+ona,clean,command,Baixa una mica,DWN,small,Baixa una mica.,DWN,DWN,4.57
+ona,babble10,command,Baixa una mica,DWN,base,Bassa una mica.,NONE,NONE,1.59
+ona,babble10,command,Baixa una mica,DWN,small,Baixa una mica.,DWN,DWN,4.69
+pau,clean,command,Baixa una mica,DWN,base,Bàs el nom de m'hi cap.,NONE,NONE,2.20
+pau,clean,command,Baixa una mica,DWN,small,Baixa una mica.,DWN,DWN,4.85
+pau,babble10,command,Baixa una mica,DWN,base,Bassa una mica.,NONE,NONE,1.34
+pau,babble10,command,Baixa una mica,DWN,small,Baixa una mica.,DWN,DWN,4.68
+ona,clean,command,Xucla,XUCLA,base,xucla,XUCLA,XUCLA,1.03
+ona,clean,command,Xucla,XUCLA,small,Xocola,NONE,NONE,3.41
+ona,babble10,command,Xucla,XUCLA,base,Shukla,XUCLA,XUCLA,1.12
+ona,babble10,command,Xucla,XUCLA,small,Xucla.,XUCLA,XUCLA,4.08
+pau,clean,command,Xucla,XUCLA,base,de fer raó,NONE,NONE,1.31
+pau,clean,command,Xucla,XUCLA,small,"Per fer-ho, qua.",NONE,NONE,5.73
+pau,babble10,command,Xucla,XUCLA,base,de la l'oclació.,NONE,NONE,2.69
+pau,babble10,command,Xucla,XUCLA,small,(...),NONE,NONE,3.38
+ona,clean,command,Xucla el líquid,XUCLA,base,xucla el líquid.,XUCLA,XUCLA,2.03
+ona,clean,command,Xucla el líquid,XUCLA,small,Chocolate liquid.,NONE,NONE,3.80
+ona,babble10,command,Xucla el líquid,XUCLA,base,xucla a l'iki.,XUCLA,XUCLA,1.84
+ona,babble10,command,Xucla el líquid,XUCLA,small,"Xucla, el líquid.",XUCLA,XUCLA,6.79
+pau,clean,command,Xucla el líquid,XUCLA,base,sucula t'aralíc.,NONE,NONE,2.07
+pau,clean,command,Xucla el líquid,XUCLA,small,Suclat a la líquid.,NONE,NONE,6.96
+pau,babble10,command,Xucla el líquid,XUCLA,base,sucla para l'IPI.,STOP,STOP,1.95
+pau,babble10,command,Xucla el líquid,XUCLA,small,Suc la Tarelli Pi.,NONE,NONE,6.06
+ona,clean,command,Xucla l'aigua de color,XUCLA,base,supla la iguala color.,NONE,NONE,1.66
+ona,clean,command,Xucla l'aigua de color,XUCLA,small,Sucla laigua de culó.,NONE,NONE,6.98
+ona,babble10,command,Xucla l'aigua de color,XUCLA,base,i sucla la iguala conozca.,NONE,NONE,2.07
+ona,babble10,command,Xucla l'aigua de color,XUCLA,small,xucla l'aigua de col,XUCLA,XUCLA,7.02
+pau,clean,command,Xucla l'aigua de color,XUCLA,base,Si sóc la l'aigua d'ac,NONE,NONE,2.43
+pau,clean,command,Xucla l'aigua de color,XUCLA,small,Si se sucla l'aigua de color...,NONE,NONE,8.17
+pau,babble10,command,Xucla l'aigua de color,XUCLA,base,Si suc la laiva de culo.,NONE,NONE,1.95
+pau,babble10,command,Xucla l'aigua de color,XUCLA,small,s'exucla l'aigua de color,XUCLA,NONE,8.06
+ona,clean,command,Xucla una mica,XUCLA,base,xucla una mica.,XUCLA,XUCLA,1.48
+ona,clean,command,Xucla una mica,XUCLA,small,Xucla una mica.,XUCLA,XUCLA,5.50
+ona,babble10,command,Xucla una mica,XUCLA,base,"""Chuc la una mica"".",NONE,NONE,1.62
+ona,babble10,command,Xucla una mica,XUCLA,small,xucla una mica.,XUCLA,XUCLA,5.12
+pau,clean,command,Xucla una mica,XUCLA,base,si suc la una mica,NONE,NONE,1.40
+pau,clean,command,Xucla una mica,XUCLA,small,Si suc la una mica...,NONE,NONE,5.28
+pau,babble10,command,Xucla una mica,XUCLA,base,Està a la xurla una mica.,NONE,NONE,2.08
+pau,babble10,command,Xucla una mica,XUCLA,small,Suc la una mica.,NONE,NONE,4.90
+ona,clean,command,Buida,XTREU,base,buidar,XTREU,XTREU,1.28
+ona,clean,command,Buida,XTREU,small,Bwider,NONE,NONE,4.13
+ona,babble10,command,Buida,XTREU,base,Vull d'arbre,NONE,NONE,1.55
+ona,babble10,command,Buida,XTREU,small,Buida.,XTREU,XTREU,3.46
+pau,clean,command,Buida,XTREU,base,Buita,XTREU,NONE,1.11
+pau,clean,command,Buida,XTREU,small,Buita.,XTREU,NONE,4.02
+pau,babble10,command,Buida,XTREU,base,Vull estar.,NONE,NONE,1.33
+pau,babble10,command,Buida,XTREU,small,Vull-te.,NONE,NONE,4.72
+ona,clean,command,Buida la xeringa,XTREU,base,Vull de la xarigna.,NONE,NONE,1.95
+ona,clean,command,Buida la xeringa,XTREU,small,Vida la xerringa.,NONE,NONE,6.15
+ona,babble10,command,Buida la xeringa,XTREU,base,Vull d'anar xarxes.,NONE,NONE,2.12
+ona,babble10,command,Buida la xeringa,XTREU,small,Bueza la xerrinha.,NONE,NONE,6.88
+pau,clean,command,Buida la xeringa,XTREU,base,Buita la xarïna.,XTREU,NONE,1.89
+pau,clean,command,Buida la xeringa,XTREU,small,Buita la xalina.,XTREU,NONE,5.48
+pau,babble10,command,Buida la xeringa,XTREU,base,Buit a la xaranya.,XTREU,NONE,1.73
+pau,babble10,command,Buida la xeringa,XTREU,small,Buita la xarilla!,XTREU,NONE,6.01
+ona,clean,command,Deixa anar el líquid,XTREU,base,de xana allí quít.,NONE,NONE,1.90
+ona,clean,command,Deixa anar el líquid,XTREU,small,Deixant-la al líquid.,NONE,NONE,7.07
+ona,babble10,command,Deixa anar el líquid,XTREU,base,Desàna al líquid.,NONE,NONE,1.74
+ona,babble10,command,Deixa anar el líquid,XTREU,small,#,NONE,NONE,2.57
+pau,clean,command,Deixa anar el líquid,XTREU,base,Desànal i kit.,NONE,NONE,1.46
+pau,clean,command,Deixa anar el líquid,XTREU,small,Deixant-la a l'equ,NONE,NONE,6.46
+pau,babble10,command,Deixa anar el líquid,XTREU,base,de la deixenà a l',NONE,NONE,1.90
+pau,babble10,command,Deixa anar el líquid,XTREU,small,Deixant-la a l'equ,NONE,NONE,6.52
+ona,clean,command,Buida-ho al vas,XTREU,base,Vull de ho albas.,NONE,NONE,1.64
+ona,clean,command,Buida-ho al vas,XTREU,small,Vull de Ualvas.,NONE,NONE,5.60
+ona,babble10,command,Buida-ho al vas,XTREU,base,Puiteu al baix.,DWN,NONE,1.52
+ona,babble10,command,Buida-ho al vas,XTREU,small,Cuideu el vasquio.,NONE,NONE,6.17
+pau,clean,command,Buida-ho al vas,XTREU,base,Vull de-o al vas.,NONE,NONE,2.00
+pau,clean,command,Buida-ho al vas,XTREU,small,Cuideu el vas.,NONE,NONE,5.65
+pau,babble10,command,Buida-ho al vas,XTREU,base,"Vull de u, ho vas.",NONE,NONE,1.88
+pau,babble10,command,Buida-ho al vas,XTREU,small,"I, deu, aua, va.",NONE,NONE,7.10
+ona,clean,command,Atura't,STOP,base,atrat.,NONE,NONE,1.03
+ona,clean,command,Atura't,STOP,small,-,NONE,NONE,2.49
+ona,babble10,command,Atura't,STOP,base,aturats.,STOP,NONE,1.22
+ona,babble10,command,Atura't,STOP,small,i que haurà de,NONE,NONE,4.85
+pau,clean,command,Atura't,STOP,base,Adonatulat,NONE,NONE,1.32
+pau,clean,command,Atura't,STOP,small,A tu natura.,STOP,NONE,4.48
+pau,babble10,command,Atura't,STOP,base,per a naturel.,NONE,NONE,1.45
+pau,babble10,command,Atura't,STOP,small,per on tu l'has de,NONE,NONE,5.71
+ona,clean,command,Para,STOP,base,para,STOP,STOP,0.87
+ona,clean,command,Para,STOP,small,para,STOP,STOP,2.53
+ona,babble10,command,Para,STOP,base,Parà,STOP,NONE,0.97
+ona,babble10,command,Para,STOP,small,para...,STOP,STOP,2.87
+pau,clean,command,Para,STOP,base,Bada,NONE,NONE,0.92
+pau,clean,command,Para,STOP,small,Bada,NONE,NONE,3.04
+pau,babble10,command,Para,STOP,base,Vada!,NONE,NONE,1.05
+pau,babble10,command,Para,STOP,small,Adéu!,NONE,NONE,3.71
+ona,clean,command,Stop,STOP,base,Stopra,STOP,NONE,0.91
+ona,clean,command,Stop,STOP,small,Stokra,NONE,NONE,3.50
+ona,babble10,command,Stop,STOP,base,Stop,STOP,STOP,0.87
+ona,babble10,command,Stop,STOP,small,Potser...,NONE,NONE,3.90
+pau,clean,command,Stop,STOP,base,Stop,STOP,STOP,0.76
+pau,clean,command,Stop,STOP,small,Stop.,STOP,STOP,3.02
+pau,babble10,command,Stop,STOP,base,Stop!,STOP,STOP,1.05
+pau,babble10,command,Stop,STOP,small,Stop.,STOP,STOP,2.91
+ona,clean,command,Prou,STOP,base,Prou,NONE,STOP,1.21
+ona,clean,command,Prou,STOP,small,Próor,NONE,NONE,3.92
+ona,babble10,command,Prou,STOP,base,Prou audio.,NONE,STOP,1.23
+ona,babble10,command,Prou,STOP,small,Pro.,NONE,NONE,2.84
+pau,clean,command,Prou,STOP,base,Prou,NONE,STOP,0.91
+pau,clean,command,Prou,STOP,small,Prou!,NONE,STOP,3.27
+pau,babble10,command,Prou,STOP,base,Prou.,NONE,STOP,1.06
+pau,babble10,command,Prou,STOP,small,Prou.,NONE,STOP,3.23
+ona,clean,social,Hola,HELLO,base,cola,NONE,NONE,0.87
+ona,clean,social,Hola,HELLO,small,Hola.,HELLO,HELLO,3.02
+ona,babble10,social,Hola,HELLO,base,Hola.,HELLO,HELLO,1.09
+ona,babble10,social,Hola,HELLO,small,Hola.,HELLO,HELLO,3.78
+pau,clean,social,Hola,HELLO,base,Albert,NONE,NONE,1.53
+pau,clean,social,Hola,HELLO,small,A veure...,NONE,NONE,4.40
+pau,babble10,social,Hola,HELLO,base,i el que va a,NONE,NONE,1.72
+pau,babble10,social,Hola,HELLO,small,A veure...,NONE,NONE,4.14
+ona,clean,social,Bon dia,HELLO,base,Wondia,NONE,NONE,1.35
+ona,clean,social,Bon dia,HELLO,small,Bon dia!,HELLO,HELLO,3.98
+ona,babble10,social,Bon dia,HELLO,base,Mondial,NONE,NONE,1.10
+ona,babble10,social,Bon dia,HELLO,small,Mundia.,NONE,NONE,3.90
+pau,clean,social,Bon dia,HELLO,base,Bòndia,NONE,NONE,1.35
+pau,clean,social,Bon dia,HELLO,small,Bon dia!,HELLO,HELLO,4.14
+pau,babble10,social,Bon dia,HELLO,base,Volent dia.,NONE,NONE,1.40
+pau,babble10,social,Bon dia,HELLO,small,Bon dia!,HELLO,HELLO,3.57
+ona,clean,social,Hola a tothom,HELLO,base,vola tu tom,STOP,NONE,1.36
+ona,clean,social,Hola a tothom,HELLO,small,"Hola a tu, Tom.",HELLO,HELLO,5.14
+ona,babble10,social,Hola a tothom,HELLO,base,volà tu tom.,NONE,NONE,1.42
+ona,babble10,social,Hola a tothom,HELLO,small,"Hola, tutompe.",HELLO,HELLO,5.07
+pau,clean,social,Hola a tothom,HELLO,base,Hola a tu tom.,HELLO,HELLO,1.36
+pau,clean,social,Hola a tothom,HELLO,small,Hola a tothom!,HELLO,HELLO,5.32
+pau,babble10,social,Hola a tothom,HELLO,base,a totes.,NONE,NONE,1.24
+pau,babble10,social,Hola a tothom,HELLO,small,"Hola, a tothom.",HELLO,HELLO,5.71
+ona,clean,social,Ets tonto,RESPECT,base,ets tonto,RESPECT,RESPECT,1.23
+ona,clean,social,Ets tonto,RESPECT,small,I ets tonto.,RESPECT,RESPECT,5.29
+ona,babble10,social,Ets tonto,RESPECT,base,d'on tu.,NONE,NONE,1.48
+ona,babble10,social,Ets tonto,RESPECT,small,Dit s'ho ha de fer.,NONE,NONE,6.16
+pau,clean,social,Ets tonto,RESPECT,base,est est est est est est est est,NONE,NONE,1.80
+pau,clean,social,Ets tonto,RESPECT,small,Potser no.,NONE,NONE,4.59
+pau,babble10,social,Ets tonto,RESPECT,base,Estant dur.,NONE,NONE,1.20
+pau,babble10,social,Ets tonto,RESPECT,small,És don tu,NONE,NONE,3.55
+ona,clean,social,Robot estúpid,RESPECT,base,provota estupi,NONE,NONE,1.43
+ona,clean,social,Robot estúpid,RESPECT,small,Provota estupi.,NONE,NONE,4.99
+ona,babble10,social,Robot estúpid,RESPECT,base,Rua t'estupi.,NONE,NONE,1.85
+ona,babble10,social,Robot estúpid,RESPECT,small,Rubat estúpig.,NONE,NONE,4.98
+pau,clean,social,Robot estúpid,RESPECT,base,Robert Astupi.,NONE,NONE,1.38
+pau,clean,social,Robot estúpid,RESPECT,small,Robert Astupe.,NONE,NONE,4.72
+pau,babble10,social,Robot estúpid,RESPECT,base,Robert Astupi.,NONE,NONE,1.33
+pau,babble10,social,Robot estúpid,RESPECT,small,com a robar-te l'estupir,NONE,NONE,7.69
+ona,clean,non_command,Ara parlarem de química,NONE,base,Ara parlarem d'aquímica.,STOP,NONE,2.05
+ona,clean,non_command,Ara parlarem de química,NONE,small,Ara parlarem de química.,STOP,NONE,6.21
+ona,babble10,non_command,Ara parlarem de química,NONE,base,Ara parlarem d'aquí n'hi ha.,STOP,NONE,2.42
+ona,babble10,non_command,Ara parlarem de química,NONE,small,Ara parlarem de química.,STOP,NONE,6.28
+pau,clean,non_command,Ara parlarem de química,NONE,base,ara parlarem de química,STOP,NONE,1.69
+pau,clean,non_command,Ara parlarem de química,NONE,small,Ara parlaram de quimisca.,STOP,NONE,6.87
+pau,babble10,non_command,Ara parlarem de química,NONE,base,Ara parlarem de Química.,STOP,NONE,1.82
+pau,babble10,non_command,Ara parlarem de química,NONE,small,Para parlar de quimística.,STOP,STOP,6.29
+ona,clean,non_command,Preparem la dissolució,NONE,base,Preparem la dissonusió.,STOP,NONE,2.09
+ona,clean,non_command,Preparem la dissolució,NONE,small,Preparem la disolució.,STOP,NONE,6.48
+ona,babble10,non_command,Preparem la dissolució,NONE,base,preparem la dissolution.,STOP,NONE,1.65
+ona,babble10,non_command,Preparem la dissolució,NONE,small,Preparem la dissolució.,STOP,NONE,5.69
+pau,clean,non_command,Preparem la dissolució,NONE,base,preparem la disolció.,STOP,NONE,1.79
+pau,clean,non_command,Preparem la dissolució,NONE,small,Preparem la disolució.,STOP,NONE,6.11
+pau,babble10,non_command,Preparem la dissolució,NONE,base,preparem la dissenció.,STOP,NONE,1.67
+pau,babble10,non_command,Preparem la dissolució,NONE,small,Preparem la disrupció.,STOP,NONE,5.72
+ona,clean,non_command,Separa els dos líquids,NONE,base,separa els dos líquids.,STOP,NONE,1.81
+ona,clean,non_command,Separa els dos líquids,NONE,small,Separa els dos líquids.,STOP,NONE,5.99
+ona,babble10,non_command,Separa els dos líquids,NONE,base,Zapara els dos líquits.,STOP,NONE,1.97
+ona,babble10,non_command,Separa els dos líquids,NONE,small,separa els dos líquids.,STOP,NONE,6.59
+pau,clean,non_command,Separa els dos líquids,NONE,base,Sapar els meus liquids.,STOP,NONE,1.59
+pau,clean,non_command,Separa els dos líquids,NONE,small,Separe els dos líquids.,STOP,NONE,6.22
+pau,babble10,non_command,Separa els dos líquids,NONE,base,separa els dos l'equits.,STOP,NONE,2.47
+pau,babble10,non_command,Separa els dos líquids,NONE,small,S'apareix dos l'equíris.,STOP,NONE,8.19
+ona,clean,non_command,Mira aquest aparell,NONE,base,Mira aquest aparelor.,STOP,NONE,1.54
+ona,clean,non_command,Mira aquest aparell,NONE,small,Mira queta parella.,STOP,NONE,5.08
+ona,babble10,non_command,Mira aquest aparell,NONE,base,Mira què t'aparendo de qui.,STOP,NONE,2.19
+ona,babble10,non_command,Mira aquest aparell,NONE,small,Mira que et para endodar aquí.,STOP,STOP,6.57
+pau,clean,non_command,Mira aquest aparell,NONE,base,Mira aquesta prèc.,NONE,NONE,1.65
+pau,clean,non_command,Mira aquest aparell,NONE,small,Mira que et preu.,NONE,NONE,5.48
+pau,babble10,non_command,Mira aquest aparell,NONE,base,Mira aquesta preia.,NONE,NONE,1.46
+pau,babble10,non_command,Mira aquest aparell,NONE,small,i mira aquesta praia.,NONE,NONE,5.30
+ona,clean,non_command,Ara et toca a tu,NONE,base,ara toca tu,STOP,NONE,1.29
+ona,clean,non_command,Ara et toca a tu,NONE,small,Ara toca tu.,STOP,NONE,4.25
+ona,babble10,non_command,Ara et toca a tu,NONE,base,ara toca a tu.,STOP,NONE,1.54
+ona,babble10,non_command,Ara et toca a tu,NONE,small,Ara toca a tu.,STOP,NONE,5.51
+pau,clean,non_command,Ara et toca a tu,NONE,base,Ara et toca tu.,STOP,NONE,1.52
+pau,clean,non_command,Ara et toca a tu,NONE,small,Ara et toca la tu.,STOP,NONE,5.63
+pau,babble10,non_command,Ara et toca a tu,NONE,base,Arre tocratú.,NONE,NONE,1.83
+pau,babble10,non_command,Ara et toca a tu,NONE,small,Ara et toca la tu.,STOP,NONE,5.22
+ona,clean,non_command,Parla més fort,NONE,base,Parlem més fort.,STOP,NONE,1.44
+ona,clean,non_command,Parla més fort,NONE,small,Parla més fort.,STOP,NONE,4.73
+ona,babble10,non_command,Parla més fort,NONE,base,Per la més fort.,NONE,NONE,1.39
+ona,babble10,non_command,Parla més fort,NONE,small,per la més fort.,NONE,NONE,4.76
+pau,clean,non_command,Parla més fort,NONE,base,Parlem és fort.,STOP,NONE,1.45
+pau,clean,non_command,Parla més fort,NONE,small,Parla més fort.,STOP,NONE,4.81
+pau,babble10,non_command,Parla més fort,NONE,base,Parlem més fort.,STOP,NONE,1.35
+pau,babble10,non_command,Parla més fort,NONE,small,Parla més fort.,STOP,NONE,4.64
+ona,clean,non_command,Agafa el teu llapis,NONE,base,Agafal té un llapis.,XUCLA,NONE,1.88
+ona,clean,non_command,Agafa el teu llapis,NONE,small,Agafa el teu llapis.,XUCLA,NONE,6.51
+ona,babble10,non_command,Agafa el teu llapis,NONE,base,Agafal té un llàpid.,XUCLA,NONE,2.16
+ona,babble10,non_command,Agafa el teu llapis,NONE,small,Agafa el teu llapis.,XUCLA,NONE,6.64
+pau,clean,non_command,Agafa el teu llapis,NONE,base,A cada altiu llapis.,NONE,NONE,1.96
+pau,clean,non_command,Agafa el teu llapis,NONE,small,Acafralteu-hi a pis.,NONE,NONE,7.64
+pau,babble10,non_command,Agafa el teu llapis,NONE,base,A casa el teu llapis.,NONE,NONE,1.78
+pau,babble10,non_command,Agafa el teu llapis,NONE,small,Acafra el teu llapis.,NONE,NONE,7.17
+ona,clean,non_command,Està molt dret,NONE,base,L'està molt dret.,RIGHT,NONE,1.78
+ona,clean,non_command,Està molt dret,NONE,small,L'està molt dret.,RIGHT,NONE,6.03
+ona,babble10,non_command,Està molt dret,NONE,base,L'està molt dre.,NONE,NONE,1.74
+ona,babble10,non_command,Està molt dret,NONE,small,L'està molt dret.,RIGHT,NONE,6.03
+pau,clean,non_command,Està molt dret,NONE,base,Estam ultra-ret.,NONE,NONE,1.60
+pau,clean,non_command,Està molt dret,NONE,small,Està molt dret.,RIGHT,NONE,5.46
+pau,babble10,non_command,Està molt dret,NONE,base,Està molt dret.,RIGHT,NONE,1.56
+pau,babble10,non_command,Està molt dret,NONE,small,Està molt directe.,NONE,NONE,5.41
+ona,clean,non_command,Aquest és el teu dret,NONE,base,Aquest és el teu drept.,NONE,NONE,2.02
+ona,clean,non_command,Aquest és el teu dret,NONE,small,Aquest és el teu dret.,RIGHT,NONE,6.66
+ona,babble10,non_command,Aquest és el teu dret,NONE,base,Aquest és el teu dret.,RIGHT,NONE,1.93
+ona,babble10,non_command,Aquest és el teu dret,NONE,small,Aquest és el teu dret.,RIGHT,NONE,6.31
+pau,clean,non_command,Aquest és el teu dret,NONE,base,Aquest és el teu dret.,RIGHT,NONE,1.84
+pau,clean,non_command,Aquest és el teu dret,NONE,small,Aquest és el teu dret.,RIGHT,NONE,6.52
+pau,babble10,non_command,Aquest és el teu dret,NONE,base,Aquest és el teu dret.,RIGHT,NONE,1.74
+pau,babble10,non_command,Aquest és el teu dret,NONE,small,Aquest és el teu dret.,RIGHT,NONE,6.15
+ona,clean,non_command,El nivell de l'aigua baixa,NONE,base,El nivell de la lligua va ser.,NONE,NONE,2.17
+ona,clean,non_command,El nivell de l'aigua baixa,NONE,small,"Al nivell de laigua, baixa.",DWN,DWN,7.90
+ona,babble10,non_command,El nivell de l'aigua baixa,NONE,base,El niven de l'aigua va ser.,NONE,NONE,2.41
+ona,babble10,non_command,El nivell de l'aigua baixa,NONE,small,"Al nivell de la llibertat, va aix",NONE,NONE,9.24
+pau,clean,non_command,El nivell de l'aigua baixa,NONE,base,Only piece la lligua bàsxar.,NONE,NONE,2.44
+pau,clean,non_command,El nivell de l'aigua baixa,NONE,small,"Va, ni veja, la llibertat",NONE,NONE,8.22
+pau,babble10,non_command,El nivell de l'aigua baixa,NONE,base,El nivell de l'aigua va ser,NONE,NONE,2.48
+pau,babble10,non_command,El nivell de l'aigua baixa,NONE,small,fa un llibre de la Igua Basc,NONE,NONE,7.46
+ona,clean,non_command,Treu-te la jaqueta,NONE,base,Te hotela xaqueta.,NONE,NONE,1.97
+ona,clean,non_command,Treu-te la jaqueta,NONE,small,Teu té la xaqueta.,NONE,NONE,6.42
+ona,babble10,non_command,Treu-te la jaqueta,NONE,base,Teute la xeceta.,NONE,NONE,1.83
+ona,babble10,non_command,Treu-te la jaqueta,NONE,small,Teu té la xaqueta.,NONE,NONE,6.28
+pau,clean,non_command,Treu-te la jaqueta,NONE,base,3 de la jaqueta.,NONE,NONE,1.67
+pau,clean,non_command,Treu-te la jaqueta,NONE,small,Treu-te la jaqueta.,XTREU,NONE,6.78
+pau,babble10,non_command,Treu-te la jaqueta,NONE,base,treure-te la jettart.,XTREU,NONE,2.00
+pau,babble10,non_command,Treu-te la jaqueta,NONE,small,Treu-te la jaqueta.,XTREU,NONE,6.76
+ona,clean,non_command,Què passa si barregem colors?,NONE,base,Què passa si barregem colors?,NONE,NONE,1.70
+ona,clean,non_command,Què passa si barregem colors?,NONE,small,Què passa si barregem colors?,NONE,NONE,5.77
+ona,babble10,non_command,Què passa si barregem colors?,NONE,base,Què passa si barregem pològics?,NONE,NONE,2.06
+ona,babble10,non_command,Què passa si barregem colors?,NONE,small,Què passa si barregem colors?,NONE,NONE,5.60
+pau,clean,non_command,Què passa si barregem colors?,NONE,base,capaça si barregem col·los.,NONE,NONE,2.11
+pau,clean,non_command,Què passa si barregem colors?,NONE,small,Cap a s'assibarreguem colors.,NONE,NONE,8.00
+pau,babble10,non_command,Què passa si barregem colors?,NONE,base,que passa si m'arreguem color.,NONE,NONE,2.05
+pau,babble10,non_command,Què passa si barregem colors?,NONE,small,Cap a s'assibarreguem colors.,NONE,NONE,7.66
+ona,clean,non_command,El vas és ple,NONE,base,El vas és pler.,NONE,NONE,1.46
+ona,clean,non_command,El vas és ple,NONE,small,El bas és pler.,NONE,NONE,5.26
+ona,babble10,non_command,El vas és ple,NONE,base,Al bass es plen.,NONE,NONE,1.70
+ona,babble10,non_command,El vas és ple,NONE,small,El vas displegar.,NONE,NONE,5.32
+pau,clean,non_command,El vas és ple,NONE,base,El vàs es plaix,NONE,NONE,1.65
+pau,clean,non_command,El vas és ple,NONE,small,El bas A split,NONE,NONE,3.96
+pau,babble10,non_command,El vas és ple,NONE,base,el bus és bé.,NONE,NONE,1.46
+pau,babble10,non_command,El vas és ple,NONE,small,"El bass, A split.",NONE,NONE,5.26
+ona,clean,non_command,Tinc una pregunta,NONE,base,Tim una pregunta.,NONE,NONE,1.21
+ona,clean,non_command,Tinc una pregunta,NONE,small,Tinc una pregunta.,NONE,NONE,4.49
+ona,babble10,non_command,Tinc una pregunta,NONE,base,Tinc una pregunta.,NONE,NONE,1.37
+ona,babble10,non_command,Tinc una pregunta,NONE,small,Tinc una pregunta.,NONE,NONE,4.63
+pau,clean,non_command,Tinc una pregunta,NONE,base,Tinc una pregunta.,NONE,NONE,1.39
+pau,clean,non_command,Tinc una pregunta,NONE,small,Tinc una pregunta.,NONE,NONE,4.35
+pau,babble10,non_command,Tinc una pregunta,NONE,base,Tinc una pregunta.,NONE,NONE,1.36
+pau,babble10,non_command,Tinc una pregunta,NONE,small,Tinc una pregunta.,NONE,NONE,4.34
+ona,clean,non_command,Comencem l'experiment,NONE,base,Comencem l'experiment.,NONE,NONE,1.99
+ona,clean,non_command,Comencem l'experiment,NONE,small,Comencem l'experiment.,NONE,NONE,6.58
+ona,babble10,non_command,Comencem l'experiment,NONE,base,Comencem l'experiment.,NONE,NONE,2.05
+ona,babble10,non_command,Comencem l'experiment,NONE,small,comencem l'experiment.,NONE,NONE,6.74
+pau,clean,non_command,Comencem l'experiment,NONE,base,"Comence, Whatsparimain",STOP,NONE,1.65
+pau,clean,non_command,Comencem l'experiment,NONE,small,Comença amb l'experiment.,NONE,NONE,6.62
+pau,babble10,non_command,Comencem l'experiment,NONE,base,Comencem l'experiment?,NONE,NONE,1.91
+pau,babble10,non_command,Comencem l'experiment,NONE,small,Comença amb l'experiment.,NONE,NONE,6.46
+ona,clean,non_command,Ho has fet molt bé,NONE,base,Pós fer el molbe.,NONE,NONE,1.88
+ona,clean,non_command,Ho has fet molt bé,NONE,small,Pots fer molt bé.,NONE,NONE,6.35
+ona,babble10,non_command,Ho has fet molt bé,NONE,base,Pós fet molt bé.,NONE,NONE,1.78
+ona,babble10,non_command,Ho has fet molt bé,NONE,small,Pots fer molt bé.,NONE,NONE,5.37
+pau,clean,non_command,Ho has fet molt bé,NONE,base,ho has fet molt bé,NONE,NONE,1.41
+pau,clean,non_command,Ho has fet molt bé,NONE,small,Pòas fit molt bé.,NONE,NONE,5.53
+pau,babble10,non_command,Ho has fet molt bé,NONE,base,ho ha escrit molt bé.,NONE,NONE,1.70
+pau,babble10,non_command,Ho has fet molt bé,NONE,small,per a la gent que ha de ser a,NONE,NONE,6.81
+ona,clean,non_command,Jo també ho vull provar,NONE,base,jo també ho vull provar,NONE,NONE,1.56
+ona,clean,non_command,Jo també ho vull provar,NONE,small,Això també ho vull provar.,NONE,NONE,5.66
+ona,babble10,non_command,Jo també ho vull provar,NONE,base,Jo també ho vull provar.,NONE,NONE,1.63
+ona,babble10,non_command,Jo també ho vull provar,NONE,small,Això també ho veu molt provat.,NONE,NONE,6.54
+pau,clean,non_command,Jo també ho vull provar,NONE,base,Jo també ho vull provar.,NONE,NONE,1.84
+pau,clean,non_command,Jo també ho vull provar,NONE,small,Jo també ho vull provar.,NONE,NONE,5.17
+pau,babble10,non_command,Jo també ho vull provar,NONE,base,"Jota B1, parla.",STOP,NONE,1.81
+pau,babble10,non_command,Jo també ho vull provar,NONE,small,"JB, un probable.",NONE,NONE,5.20
+ona,clean,non_command,Quin color tindrà?,NONE,base,pincullotindra.,NONE,NONE,1.59
+ona,clean,non_command,Quin color tindrà?,NONE,small,Pinculotindra.,NONE,NONE,5.56
+ona,babble10,non_command,Quin color tindrà?,NONE,base,Quin color tindrà?,NONE,NONE,1.53
+ona,babble10,non_command,Quin color tindrà?,NONE,small,i en culo tindrà.,NONE,NONE,6.32
+pau,clean,non_command,Quin color tindrà?,NONE,base,i en col·lo tindrà.,NONE,NONE,1.94
+pau,clean,non_command,Quin color tindrà?,NONE,small,i el culotindrà.,NONE,NONE,5.47
+pau,babble10,non_command,Quin color tindrà?,NONE,base,i qui culot indrà.,NONE,NONE,1.71
+pau,babble10,non_command,Quin color tindrà?,NONE,small,i el que ha de ser.,NONE,NONE,5.67
+ona,clean,non_command,"Tres, dos, u",NONE,base,"3, 2, 1",NONE,NONE,1.62
+ona,clean,non_command,"Tres, dos, u",NONE,small,"3, 2, 1.",NONE,NONE,5.13
+ona,babble10,non_command,"Tres, dos, u",NONE,base,"3, 2, 1...",NONE,NONE,1.52
+ona,babble10,non_command,"Tres, dos, u",NONE,small,"3, 2, 1...",NONE,NONE,5.28
+pau,clean,non_command,"Tres, dos, u",NONE,base,3 2 1,NONE,NONE,1.12
+pau,clean,non_command,"Tres, dos, u",NONE,small,"3, 2, 1",NONE,NONE,4.52
+pau,babble10,non_command,"Tres, dos, u",NONE,base,301,NONE,NONE,0.96
+pau,babble10,non_command,"Tres, dos, u",NONE,small,"Tre'ns dos, u...",NONE,NONE,5.25
+ona,clean,non_command,Tinc set,NONE,base,dinset,NONE,NONE,1.04
+ona,clean,non_command,Tinc set,NONE,small,Tincset.,NONE,NONE,3.79
+ona,babble10,non_command,Tinc set,NONE,base,Team Set.,NONE,NONE,1.06
+ona,babble10,non_command,Tinc set,NONE,small,#,NONE,NONE,2.39
+pau,clean,non_command,Tinc set,NONE,base,dinset,NONE,NONE,1.07
+pau,clean,non_command,Tinc set,NONE,small,Dinset.,NONE,NONE,3.98
+pau,babble10,non_command,Tinc set,NONE,base,dinset.,NONE,NONE,1.19
+pau,babble10,non_command,Tinc set,NONE,small,Tincet.,NONE,NONE,3.81

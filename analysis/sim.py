@@ -86,3 +86,8 @@ L=run("S5",1,voice={0.10:'UP'},buttons={(0.10,0.5):'buttonLDown'});
 st=[r for r in L if r[0]==0.12][0]; print(f"\n[S5 voice UP + manual DOWN same tick] arm_state at 0.12 s = {st[4]}; final arm={L[-1][2]} deg")
 # S6: STOP while conveyor moving -> target snaps to nearest step
 L=run("S6",2,voice={0.1:'RIGHT',0.25:'STOP'}); show("S6 RIGHT then STOP mid-move",L)
+
+# S7: manual syringe button held for 0.5 s, then released
+L=run("S7",2,buttons={(0.1,0.6):'buttonRUp'}); show("S7 manual syringe button held 0.5 s",L)
+# S8: voice DOWN and no stop for 3 s
+L=run("S8",3,voice={0.1:'DWN'}); show("S8 DOWN and no STOP for 3 s",L)

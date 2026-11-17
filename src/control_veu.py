@@ -1,4 +1,5 @@
 import io
+import re
 import os
 import serial
 import serial.tools.list_ports  # <--- Nova llibreria per escanejar ports
@@ -14,6 +15,44 @@ import pygame
 #         CONFIGURACIÓ AUTOMÀTICA
 # ==========================================
 MODEL_SIZE = "base"  # Model multilingüe de Whisper; el català es fixa a transcribe(language="ca")
+
+
+# --- v1.1: RECONEIXEMENT D'ORDRES PER PARAULES SENCERES ---
+# L'ordre de la llista importa: l'aturada va primer, per seguretat.
+def _paraules(*p):
+    return re.compile(r"\b(" + "|".join(p) + r")\b")
+
+REGLES = [
+    ("STOP",    _paraules("atura", "atura't", "aturat", "para", "parat", "prou", "stop", "quiet", "quieto")),
+    ("LEFT",    _paraules("esquerra", "izquierda")),
+    ("RIGHT",   _paraules("dreta", "derecha")),
+    ("UP",      _paraules("puja", "pujar", "amunt", "aixeca", "sube", "arriba")),
+    ("DWN",     _paraules("baixa", "baixar", "avall", "baja", "abajo")),
+    ("XUCLA",   _paraules("xucla", "xuclar", "shukla", "aspira")),
+    ("XTREU",   _paraules("buida", "buidar", "bóida", "deixa anar", "expulsa")),
+    ("HELLO",   _paraules("hola", "bon dia", "bona tarda")),
+    ("RESPECT", _paraules("tonto", "tonta", "estúpid", "estúpida", "estupid", "imbècil")),
+]
+
+def interpreta(text):
+    text = text.strip().lower()
+    for ordre, patro in REGLES:
+        if patro.search(text):
+            return ordre
+    return None
+
+# ordre -> (missatge a la consola, àudio de resposta, token per al VEX o None)
+ACCIONS = {
+    "LEFT":    ("Movent la safata cap a l'esquerra...", "esquerra.wav", "LEFT"),
+    "RIGHT":   ("Movent la safata cap a la dreta...", "dreta.wav", "RIGHT"),
+    "UP":      ("Pujant el braç!", "puja.wav", "UP"),
+    "DWN":     ("Baixant el braç!", "baixa.wav", "DWN"),
+    "XUCLA":   ("Xuclant el líquid amb la xeringa!", "xucla.wav", "XUCLA"),
+    "XTREU":   ("Deixant anar el líquid!", "extreu.wav", "XTREU"),
+    "STOP":    ("M'aturo!", "atura.wav", "STOP"),
+    "HELLO":   ("Hola!", "bondia.wav", None),
+    "RESPECT": ("Ei! Parlem-nos amb respecte.", "respecte.wav", None),
+}
 debug = False
 # ==========================================
 
@@ -88,71 +127,18 @@ with mic as source:
                 if debug == True:
                     print(f"He entès: \"{text}\"")
                 
-                # --- ACCIONS I AUDIO-RESPOSTES ---
-                if "esquerra" in text:
-                    print("Movent safata cap a l'esquerra...")
-                    print(">>> COMANDA: ENVIANT LEFT")
-                    reprodueix_resposta("esquerra.wav")
-                    if vex: 
-                        vex.write(b"LEFT\n")
-                        vex.flush()
-                        
-                elif "hola" in text or "bon dia" in text:
-                    print("Hola!")
-                    reprodueix_resposta("bondia.wav")
-
-                elif "dreta" in text or "dret" in text:
-                    print("Movent safata cap a la dreta...")
-                    print(">>> COMANDA: ENVIANT RIGHT")
-                    reprodueix_resposta("dreta.wav")
-                    if vex:
-                        vex.write(b"RIGHT\n")
-                        vex.flush()
-                     
-                elif "puja" in text or "puj" in text:
-                    print("Pujant el braç!")
-                    print(">>> COMANDA: ENVIANT UP")
-                    reprodueix_resposta("puja.wav")
-                    if vex:
-                        vex.write(b"UP\n")
-                        vex.flush()
-
-                elif "xucla" in text or "agaf" in text or "shukla" in text:
-                    print("Xuclant el líquid amb la xeringa!")
-                    print(">>> COMANDA: ENVIANT XUCLA")
-                    reprodueix_resposta("xucla.wav")
-                    if vex:
-                        vex.write(b"XUCLA\n")
-                        vex.flush()
-
-                elif "buida" in text or "treu" in text or "bui" in text or "bóida" in text:
-                    print("Deixant anar el líquid!")
-                    print(">>> COMANDA: ENVIANT XTREU")
-                    reprodueix_resposta("extreu.wav")
-                    if vex:
-                        vex.write(b"XTREU\n")
-                        vex.flush()
-                        
-                elif "baix" in text or "baj" in text :
-                    print("Baixant el braç!")
-                    print(">>> COMANDA: ENVIANT DWN")
-                    reprodueix_resposta("baixa.wav")
-                    if vex: 
-                        vex.write(b"DWN\n")
-                        vex.flush()
-                        
-                elif "atura" in text or "par" in text or "a tu" in text or "stop" in text:
-                    print("M'aturo!")
-                    print(">>> COMANDA: ENVIANT STOP")
-                    reprodueix_resposta("atura.wav")
-                    if vex: 
-                        vex.write(b"STOP\n")
-                        vex.flush()
-
-                elif "tont" in text or "estupid" in text:
-                    print("Ei! Parlem-nos amb respecte.")
-                    reprodueix_resposta("respecte.wav")
-
+                # --- ACCIONS I AUDIO-RESPOSTES (v1.1) ---
+                # Paraules senceres; l'aturada es comprova primer, per seguretat.
+                ordre = interpreta(text)
+                if ordre in ACCIONS:
+                    missatge, wav, token = ACCIONS[ordre]
+                    print(missatge)
+                    reprodueix_resposta(wav)
+                    if token:
+                        print(f">>> COMANDA: ENVIANT {token}")
+                        if vex:
+                            vex.write((token + "\n").encode())
+                            vex.flush()
                 else:
                     print("Crec que no t'he acabat d'entendre, m'ho podries repetir si us plau?")
                     reprodueix_resposta("repetir.wav")        

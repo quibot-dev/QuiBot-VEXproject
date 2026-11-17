@@ -1,0 +1,49 @@
+group,text,expected
+command,Mou-te a l'esquerra,LEFT
+command,Una mica més a l'esquerra,LEFT
+command,"Cap a l'esquerra, robot",LEFT
+command,Vés a la dreta,RIGHT
+command,Un pas a la dreta,RIGHT
+command,Mou el carro a la dreta,RIGHT
+command,Puja la xeringa,UP
+command,"Robot, puja",UP
+command,Aixeca la xeringa,UP
+command,Baixa la xeringa,DWN
+command,"Robot, baixa",DWN
+command,"Avall, si us plau",DWN
+command,Ara xucla,XUCLA
+command,Xucla l'aigua blava,XUCLA
+command,Omple la xeringa,XUCLA
+command,Agafa aigua,XUCLA
+command,Ara buida-ho,XTREU
+command,Buida l'aigua al got,XTREU
+command,Treu el líquid,XTREU
+command,"Para, para!",STOP
+command,Atura't ara mateix,STOP
+command,Prou!,STOP
+command,"Stop, robot",STOP
+command,Atura el braç,STOP
+command,Que pari!,STOP
+social,Hola robot,HELLO
+social,Bon dia a tothom!,HELLO
+social,Ets molt tonto,RESPECT
+non_command,Qui vol parlar primer?,NONE
+non_command,Parem atenció a la pantalla,NONE
+non_command,Tinc una idea genial,NONE
+non_command,Separem els colors per grups,NONE
+non_command,Ara toca la part de química,NONE
+non_command,Preparat per començar?,NONE
+non_command,La meva germana també fa robòtica,NONE
+non_command,Quina hora és?,NONE
+non_command,M'agrada molt aquest color,NONE
+non_command,Agafem les peces blaves,NONE
+non_command,Treu les peces de la bossa,NONE
+non_command,Està dret o tort?,NONE
+non_command,Puc anar a buscar aigua?,NONE
+non_command,El robot és molt bonic,NONE
+non_command,Ho hem fet bé!,NONE
+non_command,Baixem a esmorzar,NONE
+non_command,Pugem les escales,NONE
+non_command,"Mira, ja surt el color",NONE
+non_command,Aparta't una mica,NONE
+non_command,No paris de parlar,NONE
